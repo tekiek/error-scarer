@@ -1,0 +1,22 @@
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
+
+.page__container {
+  padding-top: 50px;
+}
+
+.navbar .container-fluid {
+  padding-left: 0px;
+}
+
+.navbar .container-fluid .navbar-header {
+  background-color: #e7e7e7;
+  padding-left: 15px;
+  border-right: 1px solid #ccc;
+}
+
