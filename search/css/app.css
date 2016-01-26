@@ -7,16 +7,10 @@ body {
 }
 
 .page__container {
-  padding-top: 50px;
+  padding-top: 100px;
+  height: 100%;
 }
 
 .navbar .container-fluid {
   padding-left: 0px;
 }
-
-.navbar .container-fluid .navbar-header {
-  background-color: #e7e7e7;
-  padding-left: 15px;
-  border-right: 1px solid #ccc;
-}
-
