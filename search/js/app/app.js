@@ -65,6 +65,8 @@ var app = new function() {
   this.init = function() {
     this.selectUI();
     this.addEvents();
+
+    app.showResults(mock_data)
   }
 
 }
