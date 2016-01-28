@@ -1,0 +1,16 @@
+default ansible_ssh_host=10.32.32.10 ec2_private_ip_address=127.0.0.1
+
+[vagrant]
+default
+
+[tag_error_scarer_api_role]
+default
+
+[tag_error_scarer_worker_role]
+default
+
+[tag_pixiedust_api_role]
+default
+
+[tag_pixiedust_admin_role]
+default
