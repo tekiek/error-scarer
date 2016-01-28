@@ -2,68 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0deca81b-9058-4802-94d3-6794bebe41f3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/atlassian-ide-plugin.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/error-scarer.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_provision" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/action_set_name" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/creator_uid" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/id" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/index_uuid" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.vagrant/machines/default/virtualbox/synced_folders" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Vagrantfile" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/ansible_vm_inventory" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/base.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/mixins.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/ping.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/conf/nginx.conf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/error_scarer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/fetch_and_save_image.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/settings_helpers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migrations/0001_initial.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/migrations/run_migrations.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qr_logger/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qr_logger/lib/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qr_logger/lib/fetch_and_save_image.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qr_logger/lib/settings_helpers.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qr_logger/qr_logger.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/qr_logger/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/run_tests.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/send_log.sh" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/settings.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/fixtures/clarifai_tag_and_embed.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/integration/test_api.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/integration/test_models.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/search/css/app.css" afterPath="$PROJECT_DIR$/static/search/css/app.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/search/css/bstrap.css" afterPath="$PROJECT_DIR$/static/search/css/bstrap.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/search/css/datepicker.css" afterPath="$PROJECT_DIR$/static/search/css/datepicker.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/search/css/table.css" afterPath="$PROJECT_DIR$/static/search/css/table.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/search/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/static/search/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/search/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/static/search/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/search/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/static/search/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/search/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/static/search/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/search/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/static/search/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/search/index.html" afterPath="$PROJECT_DIR$/static/search/index.html" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/search/js/app/app.js" afterPath="$PROJECT_DIR$/static/search/js/app/app.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/search/js/app/mock_data.js" afterPath="$PROJECT_DIR$/static/search/js/app/mock_data.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/search/js/libs/bstrap.js" afterPath="$PROJECT_DIR$/static/search/js/libs/bstrap.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/search/js/libs/datepicker.js" afterPath="$PROJECT_DIR$/static/search/js/libs/datepicker.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/search/js/libs/jquery.js" afterPath="$PROJECT_DIR$/static/search/js/libs/jquery.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/search/js/libs/table.js" afterPath="$PROJECT_DIR$/static/search/js/libs/table.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views.py" afterPath="$PROJECT_DIR$/app/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qr_logger/qr_logger.py" afterPath="$PROJECT_DIR$/qr_logger/qr_logger.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/qr_logger/settings.py" afterPath="$PROJECT_DIR$/qr_logger/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.py" afterPath="$PROJECT_DIR$/settings.py" />
     </list>
     <ignored path="error-scarer.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -102,11 +45,45 @@
           <file leaf-file-name="qr_logger.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/qr_logger/qr_logger.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-9.363636">
-                  <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
+                <state vertical-scroll-proportion="-8.69697">
+                  <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
                   <folding>
                     <element signature="e#0#9#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="settings_helpers.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/qr_logger/lib/settings_helpers.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-6.6666665">
+                  <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+                  <folding>
+                    <element signature="e#0#11#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="settings.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/qr_logger/settings.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.3246311">
+                  <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+                  <folding>
+                    <element signature="e#0#9#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Vagrantfile" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Vagrantfile">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="0.0">
+                  <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -141,23 +118,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="base.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/app/base.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding>
-                    <element signature="e#0#10#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="models.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/app/models.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.72417706">
-                  <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+                <state vertical-scroll-proportion="-66.666664">
+                  <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
                   <folding>
                     <element signature="e#0#24#0" expanded="true" />
                     <marker date="1454016764000" expanded="true" signature="1430:1483" placeholder="INSERT INTO error_scarer_user..." />
@@ -181,16 +146,6 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="run_migrations.sh" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/migrations/run_migrations.sh">
-              <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-1.3333334">
-                  <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
         </leaf>
       </split-first>
       <split-second>
@@ -198,11 +153,21 @@
           <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/app/views.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="1.4245176">
-                  <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.7253122">
+                  <caret line="77" column="31" selection-start-line="77" selection-start-column="31" selection-end-line="77" selection-end-column="31" />
                   <folding>
                     <element signature="e#0#11#0" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="settings.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/settings.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-8.0">
+                  <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -223,12 +188,14 @@
         <option value="$PROJECT_DIR$/requirements.txt" />
         <option value="$PROJECT_DIR$/app/mixins.py" />
         <option value="$PROJECT_DIR$/conf/nginx.conf" />
-        <option value="$PROJECT_DIR$/qr_logger/qr_logger.py" />
         <option value="$PROJECT_DIR$/error_scarer.py" />
         <option value="$PROJECT_DIR$/send_log.sh" />
         <option value="$PROJECT_DIR$/migrations/0001_initial.sql" />
-        <option value="$PROJECT_DIR$/app/views.py" />
         <option value="$PROJECT_DIR$/app/models.py" />
+        <option value="$PROJECT_DIR$/app/views.py" />
+        <option value="$PROJECT_DIR$/qr_logger/qr_logger.py" />
+        <option value="$PROJECT_DIR$/Vagrantfile" />
+        <option value="$PROJECT_DIR$/qr_logger/settings.py" />
       </list>
     </option>
   </component>
@@ -585,16 +552,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#9#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/migrations/run_migrations.sh">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-1.3333334">
@@ -653,16 +610,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qr_logger/qr_logger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.363636">
-          <caret line="36" column="12" selection-start-line="36" selection-start-column="12" selection-end-line="36" selection-end-column="12" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/error_scarer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.69697">
@@ -673,20 +620,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views.py">
+    <entry file="file://$PROJECT_DIR$/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.4245176">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="-8.0">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.72417706">
-          <caret line="113" column="0" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+        <state vertical-scroll-proportion="-66.666664">
+          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
             <marker date="1454016764000" expanded="true" signature="1430:1483" placeholder="INSERT INTO error_scarer_user..." />
@@ -695,6 +640,54 @@
             <marker date="1454016764000" expanded="true" signature="3259:3299" placeholder="SELECT {} FR..." />
             <marker date="1454016764000" expanded="true" signature="4311:4377" placeholder="INSERT INTO error_scarer_userlog..." />
             <marker date="1454016764000" expanded="true" signature="4444:4510" placeholder="INSERT INTO error_scarer_userlog..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qr_logger/lib/settings_helpers.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.6666665">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qr_logger/qr_logger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.69697">
+          <caret line="48" column="39" selection-start-line="48" selection-start-column="39" selection-end-line="48" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Vagrantfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="68" column="4" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/qr_logger/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3246311">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7253122">
+          <caret line="77" column="31" selection-start-line="77" selection-start-column="31" selection-end-line="77" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>

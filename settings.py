@@ -11,6 +11,7 @@ environment_settings = {
         'DB_HOST': 'localhost',
         'NSQ_CMS_EVENTS_TOPIC': 'basura#ephemeral',
         'NSQ_CMS_EVENTS_CHANNEL': 'error_scarer#ephemeral',
+        'DOMAIN': '127.0.0.1:50000'
     },
     'stage': {
 

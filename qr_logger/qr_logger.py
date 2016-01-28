@@ -14,7 +14,7 @@ from settings import get
 
 NSQ_CMS_EVENTS_TOPIC = get('NSQ_CMS_EVENTS_TOPIC')
 NSQ_CMS_EVENTS_CHANNEL = get('NSQ_CMS_EVENTS_CHANNEL')
-TAG_ENDPOINT = get('TAG_ENDPOINT')
+DOMAIN = get('DOMAIN')
 
 """
 Static variables
@@ -46,10 +46,13 @@ def handle_message(msg):
 
     msg.enable_async()
 
+    url="http://{}/logs".format(DOMAIN)
+    print url
+
     request = tornado.httpclient.HTTPRequest(
-        url="/logs",
+        url=url,
         method='POST',
-        body=urllib.urlencode(msg.body),
+        body=urllib.urlencode(data),
         connect_timeout=5.,
         request_timeout=int(MESSAGE_TIMEOUT * 0.5)
     )

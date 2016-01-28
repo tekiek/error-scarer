@@ -1,10 +1,14 @@
 import time
+import logging
 
 import tornado
 from base import BaseHandler
 from mixins import QueryArgumentsMixin
 
 import app.models
+
+
+logger = logging.getLogger(__name__)
 
 
 class AppHandler(BaseHandler, QueryArgumentsMixin):
@@ -62,6 +66,7 @@ class LogHandler(AppHandler):
 
                 self.api_response({'status': 'OK', 'user_id': user.id, 'log_id': log.id, 'userlog_id': userlog.id})
         except Exception, e:
+            logger.exception(e)
             self.api_response({'status': 'ERROR',
                                'message': str(e)})
 
