@@ -8,7 +8,10 @@ var app = new function() {
     'searchPage': '.serach__page',
     'serachError': '.serach__error',
     'serachBtn': '.serach__btn',
-    'dataTable': '#data--table'
+    'dataTable': '#data--table',
+    'datePicker': '.navbar .input-daterange',
+    'startDate': '.serach__startDate', 
+    'endDate': '.serach__endDate'
   }
   this.elEvents = {
     'click .serach__btn' : 'requestData'
@@ -37,15 +40,19 @@ var app = new function() {
       'type': 'error-scarer'
     };
 
-    data['username'] = $(this.els.searchUsername).val();
-    data['page'] = $(this.els.searchPage).val();
-    data['error'] = $(this.els.serachError).val();
+    params['username'] = $(this.els.searchUsername).val();
+    params['page'] = $(this.els.searchPage).val();
+    params['error'] = $(this.els.serachError).val();
+    params['error'] = $(this.els.serachError).val();
+    params['startDate'] = $(this.els.startDate).val();
+    params['endDate'] = $(this.els.endDate).val();
 
     return params;
   }
 
   this.requestData = function() {
     params = this.getSearchParams();
+    console.log('params', params);
 
     $.ajax({
       url: '',
@@ -62,9 +69,16 @@ var app = new function() {
     });
   }
 
+  this.addDatePicker = function() {
+    $(this.els.datePicker).datepicker({
+      format: "yyyy/dd/mm"
+    });
+  }
+
   this.init = function() {
     this.selectUI();
     this.addEvents();
+    this.addDatePicker();
 
     app.showResults(mock_data)
   }

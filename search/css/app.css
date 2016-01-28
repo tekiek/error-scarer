@@ -14,3 +14,8 @@ body {
 .navbar .container-fluid {
   padding-left: 0px;
 }
+
+.serach__divider {
+  color: #ccc; 
+  margin: 0 5px;
+}
