@@ -27,8 +27,8 @@ class LogHandler(AppHandler):
         :param int until: The unix timestamp for the ending time from which to search for errors.
         :returns: Logs between the times specified.
         """
-        since = self.get_argument('since', default=time.time() - 24 * 60 * 60)
-        until = self.get_argument('until', default=time.time())
+        since = self.get_argument('since', default=(time.time() - 24 * 60 * 60)*1000.)
+        until = self.get_argument('until', default=time.time()*1000.)
         buzz_id = self.get_argument('buzz_id', default=None)
         user_id = self.get_argument('user_id', default=None)
         message = self.get_argument('message', default=None)
