@@ -40,12 +40,11 @@ var app = new function() {
       'type': 'error-scarer'
     };
 
-    params['username'] = $(this.els.searchUsername).val();
+    params['user_id'] = $(this.els.searchUsername).val();
     params['page'] = $(this.els.searchPage).val();
-    params['error'] = $(this.els.serachError).val();
-    params['error'] = $(this.els.serachError).val();
-    params['startDate'] = $(this.els.startDate).val();
-    params['endDate'] = $(this.els.endDate).val();
+    params['message'] = $(this.els.serachError).val();
+    params['since'] = $(this.els.startDate).val();
+    params['until'] = $(this.els.endDate).val();
 
     return params;
   }
