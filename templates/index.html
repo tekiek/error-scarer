@@ -1,0 +1,85 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="/static/search/css/bstrap.css">
+    <link rel="stylesheet" type="text/css" href="/static/search/css/app.css">
+    <link rel="stylesheet" type="text/css" href="/static/search/css/table.css">
+    <link rel="stylesheet" type="text/css" href="/static/search/css/datepicker.css">
+    <script src="/static/search/js/libs/jquery.js"></script>
+    <script src="/static/search/js/libs/table.js"></script>
+    <script src="/static/search/js/libs/bstrap.js"></script>
+    <script src="/static/search/js/libs/table.js"></script>
+    <script src="/static/search/js/libs/datepicker.js"></script>
+    <script src="/static/search/js/app/mock_data.js"></script>
+    <script src="/static/search/js/app/app.js"></script>
+  </head>
+  <body>
+
+    <!-- Filter Menu -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+
+        <!-- Filter: Label -->
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Filter</a>
+        </div>
+
+        <!-- Filter: Input Fields -->
+        <form class="navbar-form navbar-left">
+          <div class="form-group">
+            <input type="text" class="serach__username serach__input form-control" placeholder="Username">
+            <input type="text" class="serach__page serach__input form-control" placeholder="Page">
+            <input type="text" class="serach__error serach__input form-control" placeholder="Error">
+            <span class="serach__divider"> | </span>
+            <div class="input-daterange input-group" id="datepicker">
+              <input placeholder="Start Date" type="text" class="serach__startDate input form-control" name="start" />
+              <span class="input-group-addon">to</span>
+              <input placeholder="End Date" type="text" class="serach__endDate input form-control" name="end" />
+            </div>
+          </div>
+        </form>
+
+        <!-- Filter: Search BTN -->
+        <div class="navbar-form navbar-right">
+          <div class="form-group">
+            <button type="submit" class="serach__btn btn btn-default">Search</button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container page__container">
+
+      <!-- DATA -->
+      <div class="panel panel-default">
+        <div class="panel-body">
+
+            <table id="data--table"
+                  data-search="true"
+                  data-show-refresh="true"
+                  data-show-toggle="true"
+                  data-show-columns="true"
+                  data-classes="table table-hover table-condensed"
+                  data-striped="true"
+            >
+                <thead>
+                <tr>
+                    <th data-field="level">level</th>
+                    <th data-field="created_at" data-sortable="true">created_at</th>
+                    <th data-field="page" data-sortable="true">page</th>
+                    <th data-field="buzz_id">buzz_id</th>
+                    <th data-field="page_type">page_type</th>
+                    <th data-field="buzz">buzz</th>                    <th data-field="message">message</th>
+                    <th data-field="stack">stack</th>
+                </tr>
+                </thead>
+            </table>
+
+        </div>
+      </div>
+
+    </div>
+
+    
+    
+  </body>
+</html>

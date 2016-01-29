@@ -44,7 +44,10 @@ class Model(object):
             value = kwargs.get(field)
             if value is None and not spec['null']:
                 raise ValueError("{} is a required field.".format(field))
-            setattr(self, field, spec['type'](value))
+            try:
+                setattr(self, field, spec['type'](value))
+            except Exception, e:
+                print "{} did not validate. Got {} expected {}".format(field, value, spec['type'])
 
 
 class User(Model):

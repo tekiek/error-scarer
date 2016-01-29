@@ -26,8 +26,8 @@ class Application(tornado.web.Application):
 
         app_settings = {
             'debug': debug,
+            'template_path': os.path.join(os.path.dirname(__file__), 'templates'),
             'static_path': os.path.join(os.path.dirname(__file__), 'static'),
-            'template_path': os.path.join(os.path.dirname(__file__), 'static', 'search'),
             'static_url_prefix': '/static/',
         }
 
@@ -35,7 +35,8 @@ class Application(tornado.web.Application):
             (r'^/ping$', app.ping.PingHandler),
             (r'^/users/([0-9]*)/logs$', app.views.UserLogHandler),
             (r'^/logs$', app.views.LogHandler),
-            (r'^/$', app.views.HomeHandler),
+            (r'^/home$', app.views.HomeHandler),
+            (r'^/.*', app.views.HomeHandler),
         ]
 
         super(Application, self).__init__(handlers, **app_settings)

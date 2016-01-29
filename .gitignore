@@ -1,3 +1,4 @@
 *.vagrant
 *.idea
 *.pyc
+atlassian-ide-plugin.xml
