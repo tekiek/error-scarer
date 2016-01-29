@@ -33,7 +33,6 @@ class Application(tornado.web.Application):
 
         handlers = [
             (r'^/ping$', app.ping.PingHandler),
-
             (r'^/users/([0-9]*)/logs$', app.views.UserLogHandler),
             (r'^/logs$', app.views.LogHandler),
             (r'^/$', app.views.HomeHandler),
