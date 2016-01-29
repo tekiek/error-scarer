@@ -55,15 +55,20 @@ var app = new function() {
     console.log('params', params);
 
     $.ajax({
-      url: '',
+      url: 'http://error_scarer-dev.buzzfeed.com/logs',
       data: params
     })
     .done(function(r) {
-      app.showResults(r);
+      console.log('r', r);
+      if (r && r.logs) {
+        app.showResults(r.logs);
+      }
     })
   }
 
   this.showResults = function(data) {
+    console.log('-------', data);
+    console.log('this.els.dataTable', this.els.dataTable);
     this.els.dataTable.bootstrapTable({
       data: data
     });
@@ -79,8 +84,7 @@ var app = new function() {
     this.selectUI();
     this.addEvents();
     this.addDatePicker();
-
-    app.showResults(mock_data)
+    this.requestData();
   }
 
 }
