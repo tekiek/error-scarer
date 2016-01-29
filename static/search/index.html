@@ -3,10 +3,12 @@
     <link rel="stylesheet" type="text/css" href="css/bstrap.css">
     <link rel="stylesheet" type="text/css" href="css/app.css">
     <link rel="stylesheet" type="text/css" href="css/table.css">
+    <link rel="stylesheet" type="text/css" href="css/datepicker.css">
     <script src="js/libs/jquery.js"></script>
     <script src="js/libs/table.js"></script>
     <script src="js/libs/bstrap.js"></script>
     <script src="js/libs/table.js"></script>
+    <script src="js/libs/datepicker.js"></script>
     <script src="js/app/mock_data.js"></script>
     <script src="js/app/app.js"></script>
   </head>
@@ -27,15 +29,21 @@
             <input type="text" class="serach__username serach__input form-control" placeholder="Username">
             <input type="text" class="serach__page serach__input form-control" placeholder="Page">
             <input type="text" class="serach__error serach__input form-control" placeholder="Error">
+            <span class="serach__divider"> | </span>
+            <div class="input-daterange input-group" id="datepicker">
+              <input placeholder="Start Date" type="text" class="serach__startDate input form-control" name="start" />
+              <span class="input-group-addon">to</span>
+              <input placeholder="End Date" type="text" class="serach__endDate input form-control" name="end" />
+            </div>
           </div>
         </form>
 
         <!-- Filter: Search BTN -->
-        <form class="navbar-form navbar-right">
+        <div class="navbar-form navbar-right">
           <div class="form-group">
             <button type="submit" class="serach__btn btn btn-default">Search</button>
           </div>
-        </form>
+        </div>
       </div>
     </nav>
 
