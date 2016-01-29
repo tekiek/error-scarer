@@ -31,10 +31,16 @@ class LogHandler(AppHandler):
         until = self.get_argument('until', default=time.time())
         buzz_id = self.get_argument('buzz_id', default=None)
         user_id = self.get_argument('user_id', default=None)
+        message = self.get_argument('message', default=None)
 
         logs = app.models.Log.find(since=since, until=until,
                                    buzz_id=buzz_id, user_id=user_id)
-        self.api_response({"logs": [log.to_json() for log in logs]})
+
+        if message is not None:
+            self.api_response({"logs": [log.to_json() for log in logs if message in log.message]})
+        else:
+            self.api_response({"logs": [log.to_json() for log in logs]})
+
 
     @tornado.gen.coroutine
     def post(self):
