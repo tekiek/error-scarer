@@ -11,6 +11,13 @@ import app.models
 logger = logging.getLogger(__name__)
 
 
+class HomeHandler(BaseHandler, QueryArgumentsMixin):
+
+    @tornado.gen.coroutine
+    def get(self):
+        self.render('index.html')
+
+
 class AppHandler(BaseHandler, QueryArgumentsMixin):
 
     @tornado.gen.coroutine
